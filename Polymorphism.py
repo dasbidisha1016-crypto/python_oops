@@ -29,3 +29,15 @@ s.sound("Hello")
 s.sound("Hello",2026)
 
 
+class Calculator:
+    def add(self, *numbers):
+        return sum(numbers)
+
+
+calc = Calculator()
+
+print(calc.add(5))
+print(calc.add(5, 10))
+print(calc.add(5, 10, 15))
+
+
